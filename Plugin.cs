@@ -12,9 +12,9 @@ namespace ComputerPlusPlusCreditsTab
     [assembly: System.Reflection.AssemblyVersion("2.0")]
     public class TestScreen : IScreen
     {
-        public string Title => "Test";
+        public string Title => "Credits";
 
-        public string Description => "Press [Option 1] for something to happen.";
+        public string Description => "Credits tab";
 
         bool onePressed = false;
         bool twoPressed = false;
