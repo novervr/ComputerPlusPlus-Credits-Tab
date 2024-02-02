@@ -71,6 +71,15 @@ namespace ComputerPlusPlusCreditsTab
             {
                 threePressed = false;
             }
+
+            if (button.characterString == "4")
+            {
+                fourPressed = true;
+            }
+            else
+            {
+                fourPressed = false;
+            }
         }
 
         public void Start()
